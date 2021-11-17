@@ -17,10 +17,10 @@ export default function Header() {
           <img src={ People } alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-        <div className="gpt9__heder-image">
-          <img src={ AI } alt="ai"/>
-        </div>
       </div>
+      <div className="gpt3__heder-image">
+          <img src={ AI } alt="ai"/>
+       </div>
     </div>
   )
 }
